@@ -1,4 +1,5 @@
-package leetcode.editor.cn;//Given an array of integers, return indices of the two numbers such that they a
+package leetcode.editor.cn;
+//Given an array of integers, return indices of the two numbers such that they a
 //dd up to a specific target. 
 //
 // You may assume that each input would have exactly one solution, and you may n
@@ -20,12 +21,17 @@ class Solution {
 
     public int[] twoSum(int[] nums, int target) {
         int length = nums.length;
+        int a[] = new int[2];
         for (int i = 0; i < length; i++) {
             for (int j = i+1; j < length; j++) {
-                nums[i]=1;
+                if (target==nums[i]+nums[j])
+                {
+                    a[0] = i;
+                    a[1] = j;
+                }
             }
         }
-        return null;
+        return a;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
