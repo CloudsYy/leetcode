@@ -53,16 +53,16 @@ class Solution1 {
         }
     }
 
-    public static void main(String[] args) {
-        List<Integer> list = new ArrayList<>();
-        List<Integer> list1 = new ArrayList<>();
-        List<Integer> list2 = new ArrayList<>();
-        list.add(1);
-        list.add(2);
-        list.add(3);
-        Solution1 solution1 = new Solution1();
-        System.out.println(list);
-        solution1.hanota(list,list1,list2);
-    }
+//    public static void main(String[] args) {
+//        List<Integer> list = new ArrayList<>();
+//        List<Integer> list1 = new ArrayList<>();
+//        List<Integer> list2 = new ArrayList<>();
+//        list.add(1);
+//        list.add(2);
+//        list.add(3);
+//        Solution1 solution1 = new Solution1();
+//        System.out.println(list);
+//        solution1.hanota(list,list1,list2);
+//    }
 }
 //leetcode submit region end(Prohibit modification and deletion)
