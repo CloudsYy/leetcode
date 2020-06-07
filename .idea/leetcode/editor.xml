@@ -19,11 +19,19 @@
             </LeetcodeEditor>
           </value>
         </entry>
+<<<<<<< HEAD
         <entry key="$PROJECT_DIR$/src/leetcode/editor/cn/[3]无重复字符的最长子串.java">
           <value>
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/src/leetcode/editor/cn/[3]无重复字符的最长子串.java" />
               <option name="questionId" value="3" />
+=======
+        <entry key="$PROJECT_DIR$/src/leetcode/editor/cn/[面试题 08.06]汉诺塔问题.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/leetcode/editor/cn/[面试题 08.06]汉诺塔问题.java" />
+              <option name="questionId" value="1000015" />
+>>>>>>> aeeddd6227459b882ad99ff2ee035eceac79f5f5
             </LeetcodeEditor>
           </value>
         </entry>
