@@ -40,14 +40,20 @@ class Solution1 {
 
     public void move(int size, List<Integer> A, List<Integer> B, List<Integer> C){
         if (size==1) {
+            // 这里之前有个疑问就是，为什么我写法跟方法2相同，只不过是分开写而已，却得到一个另一个错误的结果，苦思冥想
+            // 冥思苦想，想不出结果来，还以为跟方法二的操作有顺序问题，直到两个星期后，我又回来看
+            // 这个程序，调试一下，看了下结果，发现了猫腻，原来size的问题，第一种size已经为1，移动的是
+            // 最底下的1？？？，不是最上面3？感觉好蠢啊！............................(ˉ▽ˉ；)...
 //            C.add(A.get(size-1));
 //            A.remove(size-1);
+
+            // 方法2
             C.add(A.remove(A.size() - 1));
         }
         else {
             move(size-1,A, C, B);
 //            C.add(A.get(size-1));
-//            A.remove(size-1);............................(ˉ▽ˉ；)...
+//            A.remove(size-1);
             C.add(A.remove(A.size() - 1));
             move(size-1, B, A, C);
         }
